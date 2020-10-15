@@ -1,2 +1,4 @@
 # Itok.Extension.Configuration.AzureBlob
-use azure storage blob as configuration source
+Use azure storage blob as configuration source
+
+ttps://www.nuget.org/packages/Itok.Extension.Configuration.AzureBlob/

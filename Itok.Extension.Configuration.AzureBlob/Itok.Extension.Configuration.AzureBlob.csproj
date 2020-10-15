@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netstandard2.0</TargetFramework>
+        <Title>Itok.Extension.Configuration.AzureBlob</Title>
+        <Authors>itoktsnhc@hotmail.com</Authors>
+        <Description>Itok.Extension.Configuration.AzureBlob</Description>
+        <Copyright>itoktsnhc@hotmail.com</Copyright>
+        <PackageProjectUrl>https://github.com/Itoktsnhc/Itok.Extension.Configuration.AzureBlob</PackageProjectUrl>
+        <RepositoryUrl>https://github.com/Itoktsnhc/Itok.Extension.Configuration.AzureBlob</RepositoryUrl>
+        <PackageTags>Configuration Source</PackageTags>
+        <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Azure.Storage.Blobs" Version="12.6.0" />
+      <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="3.1.9" />
+    </ItemGroup>
+
+</Project>

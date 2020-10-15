@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Itok.Extension.Configuration.AzureBlob", "Itok.Extension.Configuration.AzureBlob\Itok.Extension.Configuration.AzureBlob.csproj", "{477F21AA-A11B-4D89-8E90-284443841E3C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Itok.Extension.Configuration.AzureBlob.Tests", "Itok.Extension.Configuration.AzureBlob.Tests\Itok.Extension.Configuration.AzureBlob.Tests.csproj", "{D71610F2-CB9D-4F72-B395-1DB19FD3190B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{477F21AA-A11B-4D89-8E90-284443841E3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{477F21AA-A11B-4D89-8E90-284443841E3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{477F21AA-A11B-4D89-8E90-284443841E3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{477F21AA-A11B-4D89-8E90-284443841E3C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D71610F2-CB9D-4F72-B395-1DB19FD3190B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D71610F2-CB9D-4F72-B395-1DB19FD3190B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D71610F2-CB9D-4F72-B395-1DB19FD3190B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D71610F2-CB9D-4F72-B395-1DB19FD3190B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
