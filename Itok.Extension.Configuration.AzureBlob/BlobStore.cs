@@ -11,10 +11,12 @@ namespace Itok.Extension.Configuration.AzureBlob
         private readonly BlobServiceClient _account;
         private readonly string _containerName;
         private readonly string _blobName;
+        public readonly string AccountName;
 
         private BlobStore(string connStr, string containerName, string blobName)
         {
             _account = new BlobServiceClient(connStr);
+            AccountName = _account.AccountName;
             _containerName = containerName;
             _blobName = blobName;
             _account.GetBlobContainerClient(containerName).CreateIfNotExists();

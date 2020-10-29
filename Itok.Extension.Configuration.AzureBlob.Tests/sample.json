@@ -1,6 +1,6 @@
 ﻿{
-  "SampleConfig": {
-    "Name": "Tom",
-    "Age": 24
+  "SampleConfig1": {
+    "Name": "Jerry",
+    "Age": 54
   }
 }

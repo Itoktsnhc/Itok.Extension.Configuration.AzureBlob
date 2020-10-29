@@ -11,6 +11,8 @@
         <PackageTags>Configuration Source</PackageTags>
         <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
         <PackageLicenseExpression>MIT</PackageLicenseExpression>
+        <Version>1.0.1</Version>
+        <PackageReleaseNotes>Add path as [{BlobStore.AccountName}]{option.ContainerName}:{option.BlobName}</PackageReleaseNotes>
     </PropertyGroup>
 
     <ItemGroup>

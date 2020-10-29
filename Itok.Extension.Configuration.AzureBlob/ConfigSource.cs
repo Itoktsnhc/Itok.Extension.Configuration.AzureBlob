@@ -13,6 +13,7 @@ namespace Itok.Extension.Configuration.AzureBlob
         {
             Option = option ?? throw new ArgumentNullException(nameof(option));
             BlobStore = new BlobStore(Option);
+            Path = $"[{BlobStore.AccountName}]{option.ContainerName}:{option.BlobName}";
         }
 
         public override IConfigurationProvider Build(IConfigurationBuilder builder)
